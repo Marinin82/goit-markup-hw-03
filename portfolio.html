@@ -13,7 +13,7 @@
     <title>Портфолио</title>
   </head>
   <body>
-    <header>
+    <header class="header_border">
         <div class="container header">
           <a href="www.devstudio.com" class="logo_top"
             ><span class="logo_active">Web</span
@@ -44,20 +44,21 @@
         </div>
       </header>
       <main>
-          <section class="section container">
+          <section class="section">
+              <div class="container">
            <h1 class="visually-hidden">Заголовок</h1>
            <ul class="portfolio_filter">
-                <li><button class="button_filter_active">Все</button></li>
-                <li><button class="button_filter">Веб-сайты</button></li>
-                <li><button class="button_filter">Приложения</button></li>
-                <li><button class="button_filter">Дизайн</button></li>
-                <li><button class="button_filter">Маркетинг</button></li>
+                <li class="filter_spacer"><button class="button_filter_active">Все</button></li>
+                <li class="filter_spacer"><button class="button_filter">Веб-сайты</button></li>
+                <li class="filter_spacer"><button class="button_filter">Приложения</button></li>
+                <li class="filter_spacer"><button class="button_filter">Дизайн</button></li>
+                <li class="filter_spacer"><button class="button_filter">Маркетинг</button></li>
           </ul>
             <ul class="portfolio_list">
                 <li class="portfolio_item">
                     <article class="card">
                     <a href class="portfolio_link">
-                    <img src="/images/portfolio1.jpg" alt="Проект 1" width="370">
+                    <img src="./images/portfolio1.jpg" alt="Проект 1" width="370">
                     <div class="portfolio_content">
                     <h2 class="portfolio_title">Технокряк</h2>
                     <p class="portfolio_text">Веб-сайт</p></div>
@@ -65,7 +66,7 @@
                 <li class="portfolio_item">
                     <article class="card">
                     <a href class="portfolio_link">
-                    <img src="/images/portfolio2.jpg" alt="Проект 2" width="370">
+                    <img src="./images/portfolio2.jpg" alt="Проект 2" width="370">
                     <div class="portfolio_content">
                     <h2 class="portfolio_title">Постер New Orlean vs Golden Star</h2>
                     <p class="portfolio_text">Дизайн</p></div>
@@ -73,7 +74,7 @@
                 <li class="portfolio_item">
                     <article class="card">
                     <a href class="portfolio_link">
-                    <img src="/images/portfolio3.jpg" alt="Проект 3" width="370">
+                    <img src="./images/portfolio3.jpg" alt="Проект 3" width="370">
                     <div class="portfolio_content">
                     <h2 class="portfolio_title">Ресторан Seafood</h2>
                     <p class="portfolio_text">Приложение</p></div>
@@ -81,7 +82,7 @@
                 <li class="portfolio_item">
                     <article class="card">
                     <a href class="portfolio_link">
-                    <img src="/images/portfolio4.jpg" alt="Проект 4" width="370">
+                    <img src="./images/portfolio4.jpg" alt="Проект 4" width="370">
                     <div class="portfolio_content">
                     <h2 class="portfolio_title">Проект Prime</h2>
                     <p class="portfolio_text">Маркетинг</p></div>
@@ -89,7 +90,7 @@
                 <li class="portfolio_item">
                     <article class="card">
                     <a href class="portfolio_link">
-                    <img src="/images/portfolio5.jpg" alt="Проект 5" width="370">
+                    <img src="./images/portfolio5.jpg" alt="Проект 5" width="370">
                     <div class="portfolio_content">
                     <h2 class="portfolio_title">Проект Boxes</h2>
                     <p class="portfolio_text">Приложение</p></div>
@@ -97,7 +98,7 @@
                 <li class="portfolio_item">
                     <article class="card">
                     <a href class="portfolio_link">
-                    <img src="/images/portfolio6.jpg" alt="Проект 6" width="370">
+                    <img src="./images/portfolio6.jpg" alt="Проект 6" width="370">
                     <div class="portfolio_content">
                     <h2 class="portfolio_title">Inspiration has no Borders</h2>
                     <p class="portfolio_text">Веб-сайт</p></div>
@@ -105,7 +106,7 @@
                 <li class="portfolio_item">
                     <article class="card">
                     <a href class="portfolio_link">
-                    <img src="/images/portfolio7.jpg" alt="Проект 7" width="370">
+                    <img src="./images/portfolio7.jpg" alt="Проект 7" width="370">
                     <div class="portfolio_content">
                     <h2 class="portfolio_title">Издание Limited Edition</h2>
                     <p class="portfolio_text">Дизайн</p></div>
@@ -113,7 +114,7 @@
                 <li class="portfolio_item">
                     <article class="card">
                     <a href class="portfolio_link">
-                    <img src="/images/portfolio8.jpg" alt="Проект 8" width="370">
+                    <img src="./images/portfolio8.jpg" alt="Проект 8" width="370">
                     <div class="portfolio_content">
                     <h2 class="portfolio_title">Проект LAB</h2>
                     <p class="portfolio_text">Маркетинг</p></div>
@@ -121,32 +122,30 @@
                 <li class="portfolio_item">
                     <article class="card">
                     <a href class="portfolio_link">
-                    <img src="/images/portfolio9.jpg" alt="Проект 9" width="370">
+                    <img src="./images/portfolio9.jpg" alt="Проект 9" width="370">
                     <div class="portfolio_content">
                     <h2 class="portfolio_title">Growing Business</h2>
                     <p class="portfolio_text">Приложение</p></div>
                     </article></a></li>
           </ul>
+        </div>
         </section>
       </main>
       <footer class="footer">
-        <div class="container">
+        <div class="container footer_padding">
           <a href="www.devstudio.com" class="logo_bottom"
             ><span class="logo_active">Web</span
-            ><span class="logo_white">Studio</span></a
-          >
+            ><span class="logo_white">Studio</span></a>
+          <div class="footer_cont">
           <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-          <p>
-            <a class="contacts_footer" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+          <p class="contacts_spacer"><a class="contacts_footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a>
           </p>
-          <p>
-            <a class="contacts_footer" href="tel:+3810961111111"
-              >+38 096 111 11 11</a
-            >
+          <p class="contacts_spacer"><a class="contacts_footer" href="tel:+3810961111111"
+              >+38 096 111 11 11</a>
           </p>
         </div>
-      </footer>    
-  </body>
+    </div>
+      </footer>
+      </body>
   </html>
