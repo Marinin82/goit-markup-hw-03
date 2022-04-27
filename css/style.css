@@ -233,10 +233,8 @@ img {
 }
 .footer {
   background-color: var(--back-color);
-}
-.footer_padding {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer_cont {
     padding-top: 20px;
@@ -284,9 +282,7 @@ img {
   border-radius: 4px;
   border: none;
   cursor: pointer;
-}
-.filter_spacer:not(:last-child) {
-    margin-right: 8px;
+  padding: 6px 22px;
 }
 .button_filter_active {
   font-style: normal;
@@ -300,10 +296,14 @@ img {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  padding: 6px 22px;
 }
 .button_filter:hover {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+.filter_spacer:not(:last-child) {
+    margin-right: 8px;
 }
 .portfolio_list {
   list-style-type: none;
@@ -336,15 +336,17 @@ img {
   letter-spacing: 0.06em;
   color: var(--header-text-color);
   text-decoration: none;
+  margin: 0;
 }
 .portfolio_text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.88px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--line-text-color);
   text-decoration: none;
+  margin: 0;
 }
 .visually-hidden {
   position: absolute;
